@@ -333,8 +333,7 @@ class EnhancedPortfolioOptimizer:
        
         # Add reference CAGR benchmark
         reference_result = self._create_reference_CAGR_benchmark(
-            initial_value, reference_CAGR, "Reference CAGR"
-        )
+            initial_value, reference_CAGR, "Reference CAGR")
         results['reference_CAGR'] = reference_result
        
         self.backtest_results = results
